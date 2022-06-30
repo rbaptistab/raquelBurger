@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="F93D1F58-851E-D4B0-5223-F8EA942EBE58">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 20:27:33 UTC</createdTime>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

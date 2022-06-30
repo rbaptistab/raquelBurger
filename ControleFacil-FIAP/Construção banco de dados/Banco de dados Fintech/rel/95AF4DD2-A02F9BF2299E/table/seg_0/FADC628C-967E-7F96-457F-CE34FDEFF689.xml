@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FADC628C-967E-7F96-457F-CE34FDEFF689" name="T_USUARIO_GASTOS">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:24:54 UTC</createdTime>
+<generatorID>314F3D4C-10FF-84F2-961C-C41D6B45A251</generatorID>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ct_gasto" id="2954E290-7916-49A9-9861-38BAE78290C8">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:24:54 UTC</createdTime>
+<generatorID>29B29FB6-8DD7-7363-8BD0-44D929A3408F</generatorID>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_gasto" id="6B22639F-526A-14D0-0B94-0CF61FD3415A">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:24:54 UTC</createdTime>
+<generatorID>7C633149-2C2F-6A0F-3CCC-A1234B13D0EE</generatorID>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hr_gasto" id="34350AD1-8461-6E52-2F87-78C7A4C5FE8A">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:24:54 UTC</createdTime>
+<generatorID>8B49F250-032A-301D-E4A7-5892982727FA</generatorID>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_gasto" id="AC2D122F-6055-CAD3-3D1E-1ACEB61973B7">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:24:54 UTC</createdTime>
+<generatorID>280ACD69-08CD-62C3-B360-1750F8138273</generatorID>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_em_usuario" id="2E0653F1-2B5F-9AB9-5BA5-8A7107FDF7AB">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:24:54 UTC</createdTime>
+<generatorID>9176737D-97F5-1AD4-82B0-C86215D50A01</generatorID>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4763EE0F-59EA-9414-541C-9F23377980D3" referredColumn="3CC197C7-1FD5-3C27-366E-FE374E47F6B7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23D99F10-1EC5-F4F5-5FBD-6C15A0BB8DAF" name="T_USUARIO_GASTOS_PK">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:24:54 UTC</createdTime>
+<generatorID>79D9504E-E927-BCEC-C77C-A9FF3458C274</generatorID>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E0653F1-2B5F-9AB9-5BA5-8A7107FDF7AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4B3AADA-3A81-49A4-9485-05D88AC753D2" name="T_USUARIO_GASTOS_T_USUARIO_FK">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:24:55 UTC</createdTime>
+<generatorID>BD0D0893-F22C-4F53-8849-A51B9B0F034F</generatorID>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E0653F1-2B5F-9AB9-5BA5-8A7107FDF7AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

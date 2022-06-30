@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="95AF4DD2-4033-F016-1716-A02F9BF2299E" mainViewID="BA49F9DD-6A83-62A2-E52D-2B90757A0EE1">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 20:27:34 UTC</createdTime>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

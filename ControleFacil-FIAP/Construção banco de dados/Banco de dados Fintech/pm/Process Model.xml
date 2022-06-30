@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="77571EB0-77A3-02CE-A79B-CC13E4310A39">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 20:27:33 UTC</createdTime>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

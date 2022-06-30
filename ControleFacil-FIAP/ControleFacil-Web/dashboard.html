@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Controle Fácil">
+    <meta name="author" content="Raquel Baptista Burger">
+    <title>Controle Fácil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styled.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light ">
+            <div class="container-fluid align-items-center">
+                <a class="titulo" href="./index.html">Controle Fácil</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./dashboard.html">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Meu Perfil</a>
+                        </li>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+    <main class="container">
+        <section class="card align-items-center text-center" style="width: auto;">
+            <div class="dropdown text-center">
+                <a class="btn btn-secondary dropdown-toggle" width="auto" href="#" role="button" id="dropdownMenuLink"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Selecione o mês
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Janeiro</a></li>
+                    <li><a class="dropdown-item" href="#">Fevereiro</a></li>
+                    <li><a class="dropdown-item" href="#">Março</a></li>
+                    <li><a class="dropdown-item" href="#">Abril</a></li>
+                    <li><a class="dropdown-item" href="#">Maio</a></li>
+                    <li><a class="dropdown-item" href="#">Junho</a></li>
+                    <li><a class="dropdown-item" href="#">Julho</a></li>
+                    <li><a class="dropdown-item" href="#">Agosto</a></li>
+                    <li><a class="dropdown-item" href="#">Setembro</a></li>
+                    <li><a class="dropdown-item" href="#">Outubro</a></li>
+                    <li><a class="dropdown-item" href="#">Novembro</a></li>
+                    <li><a class="dropdown-item" href="#">Dezembro</a></li>
+                </ul>
+            </div>
+            <div class="card saldo " style="width: 75%;">
+                <a class="" data-bs-toggle="collapse" href="#collapseSaldo" role="button" aria-expanded="false"
+                    aria-controls="collapseSaldo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-info-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                    </svg>
+                </a>
+                <div class="collapse" id="collapseSaldo">
+                    <div class="card card-body">
+                        O saldo atual é a somatória de todos os valores lançados (gastos e recebimentos) até o dia de
+                        hoje.
+                    </div>
+                </div>
+
+                <h3>Saldo Atual</h3>
+                <h4>RS 2.000,00</h4>
+            </div>
+            <div class="card recebimentos align-items-center" style="width: 75%; height: 10rem;">
+                <a class="" data-bs-toggle="collapse" href="#collapseRecebidos" role="button" aria-expanded="false"
+                    aria-controls="collapseRecebidos">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-info-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                    </svg>
+                </a>
+                <div class="collapse" id="collapseRecebidos">
+                    <div class="card card-body">
+                        Recebimentos é todo valor recebido por renda fixa ou extra.
+                    </div>
+                </div>
+                <h4>Recebimentos do mês</h4>
+                <h5>R$4.500,00</h5>
+                <div class="d-flex justify-content-evenly" style="width: 80%;">
+                    <a href="./detalhesRecebimentos.html">
+                        <button type="button" style="width: auto;" class="btn">Detalhes</button>
+                    </a>
+                    <button type="button" style="width: auto;" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#recebimentosModal">
+                        Adicionar
+                    </button>
+                </div>
+            </div>
+            <div class="card gastos align-items-center" style="width: 75%;">
+                <a class="" data-bs-toggle="collapse" href="#collapseGastos" role="button" aria-expanded="false"
+                    aria-controls="collapseGastos">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-info-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                    </svg>
+                </a>
+                <div class="collapse" id="collapseGastos">
+                    <div class="card card-body">
+                        Gastos são todas as despesas feitas, existem gastos fixos e gastos esporádicos.
+                    </div>
+                </div>
+                <h4>Gastos do mês</h4>
+                <h5 class="text-danger">- R$2.500,00</h5>
+                <div class="d-flex justify-content-evenly" style="width: 80%;">
+                    <a href="./detalhesGastos.html">
+                        <button type="button" class="btn">Detalhes</button>
+                    </a>
+                    <button type="button" style="width: auto;" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#gastosModal">
+                        Adicionar
+                    </button>
+                </div>
+            </div>
+            <!-- Recebimentos-->
+            <div class="modal fade" id="recebimentosModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="recebimentosModal">Inserir novo recebimento</h5>
+                            <a class="" data-bs-toggle="collapse" href="#collapseAdicionaRecebimento" role="button"
+                                aria-expanded="false" aria-controls="collapseAdicionaRecebimento">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-info-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path
+                                        d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                </svg>
+                            </a>
+                            <div class="collapse" id="collapseAdicionaRecebimento">
+                                <div class="card card-body">
+                                    Recebimentos fixos: Salário, mesada, etc. Recebimentos extras: venda de alguma
+                                    coisa, receber dinheiro de presente, etc.
+                                </div>
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Selecione categoria</option>
+                                <option value="1">Salário</option>
+                                <option value="2">Extras</option>
+                            </select>
+                            <a class="link" href="#"> + Adicionar categoria</a>
+                            <select class="form-select" aria-label="Default select example">
+                                <option value="1">Frequência</option>
+                                <option selected>Não se repete (Extra)</option>
+                                <option value="2">Semanal</option>
+                                <option value="3">Quinzenal</option>
+                                <option value="4">Mensal</option>
+                            </select>
+                            <a class="link" href="#"> + Adicionar Frequência</a>
+                            <div class="d-flex">
+                                <label for="validationTooltipUsername" class="form-label"></label>
+                                <span class="input-group-text" id="validationTooltipUsernamePrepend">R$</span>
+                                <input type="number" class="form-control" id="validationTooltipValor"
+                                    aria-describedby="validationTooltipValorPrepend" required>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary">Adicionar Movimentação</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Gastos-->
+            <div class="modal fade" id="gastosModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="gastosModal">Inserir novo gasto</h5>
+                            <a class="" data-bs-toggle="collapse" href="#collapseAdicionaGasto" role="button"
+                                aria-expanded="false" aria-controls="collapseAdicionaGasto">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-info-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path
+                                        d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                </svg>
+                            </a>
+                            <div class="collapse" id="collapseAdicionaGasto">
+                                <div class="card card-body">
+                                    Gastos fixos: Alimentação, aluguel, internet, etc. Gastos Extras: um conserto
+                                    inesperado, ir a um show, etc.
+                                </div>
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Selecione categoria</option>
+                                <option value="1">Mercado</option>
+                                <option value="2">Aluguel</option>
+                                <option value="3">Alimentação</option>
+                                <option value="4">Combustível</option>
+                            </select>
+                            <a class="link" href="#"> + Adicionar categoria</a>
+                            <select class="form-select" aria-label="Default select example">
+                                <option value="1">Frequência</option>
+                                <option selected>Não se repete (Extra)</option>
+                                <option value="2">Semanal</option>
+                                <option value="3">Quinzenal</option>
+                                <option value="4">Mensal</option>
+                            </select>
+                            <a class="link" href="#"> + Adicionar Frequência</a>
+                            <div class="d-flex">
+                                <label for="validationTooltipUsername" class="form-label"></label>
+                                <span class="input-group-text" id="validationTooltipUsernamePrepend">R$</span>
+                                <input type="number" class="form-control" id="validationTooltipValor"
+                                    aria-describedby="validationTooltipValorPrepend" required>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary">Adicionar Movimentação</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
