@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74160433-1DCE-599A-5A32-E34AF79CA396" name="T_USUARIO_RECEBIMENTOS">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 20:38:55 UTC</createdTime>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<engineerTo>
+<item key="95AF4DD2-4033-F016-1716-A02F9BF2299E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ds_recebido" id="9EAEE550-59AE-AB60-A568-CF9A40DA3F87">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 20:40:49 UTC</createdTime>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<engineerTo>
+<item key="95AF4DD2-4033-F016-1716-A02F9BF2299E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_recebido" id="6A885465-28B2-6069-AE70-93236AA3290E">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 20:39:33 UTC</createdTime>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<engineerTo>
+<item key="95AF4DD2-4033-F016-1716-A02F9BF2299E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_recebido" id="95C25B92-FC87-EA28-B11D-34C78E8082B0">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 20:40:23 UTC</createdTime>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<engineerTo>
+<item key="95AF4DD2-4033-F016-1716-A02F9BF2299E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="em_usuario" id="B1F1984E-F9A4-F5B4-14F0-FC5F5B7AB924">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 20:42:17 UTC</createdTime>
+<generatorID>DE71024E-0214-3EBD-32EF-88886286A83B</generatorID>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<engineerTo>
+<item key="95AF4DD2-4033-F016-1716-A02F9BF2299E" value="true"/>
+</engineerTo>
+<referedAttribute>73A1B915-B50B-3C67-F790-C0DD08439279</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21D99A1C-9899-D872-E11E-DD366CC84580" name="T_USUARIO_RECEBIMENTOS PK">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 20:41:59 UTC</createdTime>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<engineerTo>
+<item key="95AF4DD2-4033-F016-1716-A02F9BF2299E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9EAEE550-59AE-AB60-A568-CF9A40DA3F87</attributeRef>
+<attributeRef>B1F1984E-F9A4-F5B4-14F0-FC5F5B7AB924</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Banco de dados Fintech" id="9151AA70-4263-9761-E304-96C7F7C5F409" version="3.5">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 20:27:32 UTC</createdTime>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9151AA70-4263-9761-E304-96C7F7C5F409</designId>
+</OSDM_Design>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40AA7FE6-02BC-9CE5-56FA-050772AC55B0" name="T_USUARIO">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:24:54 UTC</createdTime>
+<generatorID>1C3F8AA2-E22B-0CC9-F9D5-90B74969300F</generatorID>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="em_usuario" id="3CC197C7-1FD5-3C27-366E-FE374E47F6B7">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:24:54 UTC</createdTime>
+<generatorID>73A1B915-B50B-3C67-F790-C0DD08439279</generatorID>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sn_usuario" id="F8A9277A-2EAA-5970-23AE-36E0BC3D7C59">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:24:54 UTC</createdTime>
+<generatorID>CD1F68C8-4ED3-59A2-7000-9D31ED9D5616</generatorID>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_usuario" id="2DFBFB94-DD2F-C39F-7AA4-D914E5998A4A">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:24:54 UTC</createdTime>
+<generatorID>5711A55A-DAB3-0F2B-5185-87286AA2CB31</generatorID>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gn_usuario" id="89D909B2-77B0-AB6C-CC4B-9E79BE17FC04">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:24:54 UTC</createdTime>
+<generatorID>C043ACFA-FB5D-F152-1C47-54C42C2CA2BC</generatorID>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF13CB90-D747-4331-6483-7DFA726699CE" name="T_USUARIO_PK">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:24:54 UTC</createdTime>
+<generatorID>2CA1A11F-29AC-468B-E8B2-5523CD8F01A5</generatorID>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CC197C7-1FD5-3C27-366E-FE374E47F6B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

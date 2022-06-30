@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="gastar" directorySegmentName="seg_0" id="BD0D0893-F22C-4F53-8849-A51B9B0F034F">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 20:46:27 UTC</createdTime>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<engineerTo>
+<item key="95AF4DD2-4033-F016-1716-A02F9BF2299E" value="true"/>
+</engineerTo>
+<sourcePk>2CA1A11F-29AC-468B-E8B2-5523CD8F01A5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1C3F8AA2-E22B-0CC9-F9D5-90B74969300F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>314F3D4C-10FF-84F2-961C-C41D6B45A251</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

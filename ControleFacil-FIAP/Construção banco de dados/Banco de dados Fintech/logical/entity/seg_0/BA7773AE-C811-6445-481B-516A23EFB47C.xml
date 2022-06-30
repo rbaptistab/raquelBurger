@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA7773AE-C811-6445-481B-516A23EFB47C" name="T_USUARIO_OBJ_FINANCEIROS">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:07:32 UTC</createdTime>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<engineerTo>
+<item key="95AF4DD2-4033-F016-1716-A02F9BF2299E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nm_objetivo" id="B2A3D481-9149-6FCF-AC08-BE0E957DD92D">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:07:46 UTC</createdTime>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<engineerTo>
+<item key="95AF4DD2-4033-F016-1716-A02F9BF2299E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_objetivo" id="8E0C4A57-3BEE-3BAF-B3E5-ECFEAC2871E6">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:07:59 UTC</createdTime>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<engineerTo>
+<item key="95AF4DD2-4033-F016-1716-A02F9BF2299E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_objetivo" id="4EEF2625-5389-CB62-63A5-97D666E4E8F9">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:08:07 UTC</createdTime>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<engineerTo>
+<item key="95AF4DD2-4033-F016-1716-A02F9BF2299E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_objetivo" id="876C8000-0A03-6BC2-99A9-47D20736021A">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:08:48 UTC</createdTime>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<engineerTo>
+<item key="95AF4DD2-4033-F016-1716-A02F9BF2299E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="em_usuario" id="80951914-A0B5-1502-A746-6425BAEEF358">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:09:33 UTC</createdTime>
+<generatorID>6D41721B-8149-0E30-3B4B-F7A4E3F9FF22</generatorID>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<engineerTo>
+<item key="95AF4DD2-4033-F016-1716-A02F9BF2299E" value="true"/>
+</engineerTo>
+<referedAttribute>73A1B915-B50B-3C67-F790-C0DD08439279</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2247BAE5-046D-474C-37F1-ED04D89BD0EC" name="T_USUARIO_OBJ_FINANCEIROS PK">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:07:56 UTC</createdTime>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<engineerTo>
+<item key="95AF4DD2-4033-F016-1716-A02F9BF2299E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B2A3D481-9149-6FCF-AC08-BE0E957DD92D</attributeRef>
+<attributeRef>80951914-A0B5-1502-A746-6425BAEEF358</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="receber" directorySegmentName="seg_0" id="DE71024E-0214-3EBD-32EF-88886286A83B">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 20:42:17 UTC</createdTime>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<engineerTo>
+<item key="95AF4DD2-4033-F016-1716-A02F9BF2299E" value="true"/>
+</engineerTo>
+<sourcePk>2CA1A11F-29AC-468B-E8B2-5523CD8F01A5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1C3F8AA2-E22B-0CC9-F9D5-90B74969300F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>74160433-1DCE-599A-5A32-E34AF79CA396</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

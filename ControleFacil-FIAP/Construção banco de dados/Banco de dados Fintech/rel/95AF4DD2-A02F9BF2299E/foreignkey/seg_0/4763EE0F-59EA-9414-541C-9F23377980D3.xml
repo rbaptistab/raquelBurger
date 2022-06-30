@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4763EE0F-59EA-9414-541C-9F23377980D3" containerWithKeyObject="FADC628C-967E-7F96-457F-CE34FDEFF689" localFKIndex="A4B3AADA-3A81-49A4-9485-05D88AC753D2" name="T_USUARIO_GASTOS_T_USUARIO_FK">
+<createdBy>raque</createdBy>
+<createdTime>2022-05-22 21:24:55 UTC</createdTime>
+<generatorID>BD0D0893-F22C-4F53-8849-A51B9B0F034F</generatorID>
+<ownerDesignName>Banco de dados Fintech</ownerDesignName>
+<referredTableLongName>T_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>40AA7FE6-02BC-9CE5-56FA-050772AC55B0</referredTableID>
+<keyObject>FF13CB90-D747-4331-6483-7DFA726699CE</keyObject>
+<referredKeyID>FF13CB90-D747-4331-6483-7DFA726699CE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>em_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
